@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+.logo {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+header h4 {
+  margin-left: 10px;
+}
+header nav {
+  display: inline-block;
+  padding-left: 700px;
+  margin-top: 20px;
+}
+header a {
+  color: black;
+  margin: 10px;
+}
+.main-content {
+  display: flex;
+}
+.large {
+  display: flex;
+}
+.medium {
+  display: flex;
+}
