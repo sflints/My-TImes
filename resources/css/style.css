@@ -40,12 +40,24 @@ nav span {
 .content {
   display: flex;
   padding-top: 100px;
+  justify-content: space-between;
 }
 .column {
   display: flex;
   flex-direction: column;
 }
-
+.column.large {
+  display: inline-block;
+  width: 630px;
+}
+.column.medium {
+  display: inline-block;
+  width: 300px;
+}
+.column.small {
+  display: inline-block;
+  width: 240px;
+}
 
 
 div {
