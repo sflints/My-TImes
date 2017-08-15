@@ -45,20 +45,58 @@ nav span {
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
+}
+.pic {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .column.large {
   display: inline-block;
   width: 630px;
 }
+.one {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  font-size: 40px;
+  height: 300px;
+  text-align: left;
+  margin-top: 5px;
+}
+.two {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
+  text-align: center;
+  margin-top: 10px;
+}
+.three {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
+  align-content: flex-start;
+  margin-top: 15px;
+}
 .column.medium {
   display: inline-block;
   width: 300px;
+}
+.four {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
+  align-items: flex-start;
 }
 .column.small {
   display: inline-block;
   width: 240px;
 }
-
+.column p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
 
 div {
   border: 1px solid black;
